@@ -1,60 +1,73 @@
 html, body {
     height: 100%;
-    background-image: ;
+    
+    
   }
   
   body {
-    background-color: white;
-    opacity: 50%;
+    background-color: rgb(0, 0, 0);
     color: black;
       margin: 0px;
       padding: 1em;
     box-sizing: border-box;
-      font-family: Arial, sans-serif;
+    font-family: "Roboto Mono", monospace;
+      
+      
   }
   
   h1 {
-    background-color: white;
-    opacity: 50%;
+    background-color: rgb(0, 0, 0);
+    color: red;
       text-align: center;
-    width: 100;
+      width: 42%;
+      height: 10%;
       margin-top: 20px;
-    border-radius: 10px;
-    box-shadow:   0px 0px 20px 10px  rgba(1, 18, 253, 0.738);
-    font-family: lucida sans;
+    border-radius: 0px;
+    box-shadow:   0px 1px 5px 5px ;
+    font-family: "Roboto Mono";
+    justify-content: center;
+   
   }
   
   main{ 
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items:left;
-    width: 100;
-    height: 120%;
+    justify-content: center;
+    align-items:center;
+    width: 40%;
+    height: 60%;
     padding: 1em ;
-    background: #0051ff45;
-    color: black;
-    border-radius: 10px;
-    box-shadow:   0px 0px 20px 10px  rgba(210, 12, 65, 0.629);
+    background: black;
+    color: red;
+    border-radius: 0px;
+    box-shadow:   1px 1px 5px 5px  red;
+    display: flex;
+   
   }
   
+  .p {
+ 
+    text-align: justify;
+  }
   
-  button {
-      display: block;
+
+   .btt button{
+      display: inline-block;
       margin: 05px auto;
       padding: 10px 20px;
-      background-color: #314e6d;
-      color: #fff;
+      background-color: red;
+      color: black;
       border: none;
-      border-radius: 5px;
       font-size: 18px;
-      cursor: pointer;
-    float: center;
       margin-left: 20px;
+  }
+  .btt button:last-child {
+    margin-right: 0;
   }
   
   button:hover {
-      background-color: #903756;
+      background-color: black;
+      color: red;
   }
   
   #results {
