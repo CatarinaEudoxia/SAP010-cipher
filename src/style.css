@@ -1,7 +1,5 @@
 html, body {
     height: 100%;
-    
-    
   }
   
   body {
@@ -11,25 +9,30 @@ html, body {
       padding: 1em;
     box-sizing: border-box;
     font-family: "Roboto Mono", monospace;
-      
-      
+    margin-left: auto;
+    margin-right: auto;
   }
   
   h1 {
     background-color: rgb(0, 0, 0);
-    color: red;
-      text-align: center;
-      width: 42%;
-      height: 10%;
-      margin-top: 20px;
+    color: rgb(255, 0, 132);
+    text-align: center;
+    width: 42%;
+    height: 10%;
+    line-height: 70px;
+    margin-top: 20px;
     border-radius: 0px;
-    box-shadow:   0px 1px 5px 5px ;
-    font-family: "Roboto Mono";
+    box-shadow: cyan  0px 1px 5px 5px ;
+    font-family: "Roboto Mono", ;
     justify-content: center;
-   
+    margin-left: auto;
+    margin-right: auto;
+    
+  
   }
   
   main{ 
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,16 +41,32 @@ html, body {
     height: 60%;
     padding: 1em ;
     background: black;
-    color: red;
+    color: cyan;
     border-radius: 0px;
-    box-shadow:   1px 1px 5px 5px  red;
-    display: flex;
-   
+    box-shadow:   1px 1px 5px 5px  rgb(255, 0, 132);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    text-decoration: none;
   }
   
-  .p {
- 
-    text-align: justify;
+  .h3-blink {
+    font-size: 24px;
+    font-weight: bold;
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  p {
+    text-align: center;
+    text-justify: inter-word;
   }
   
 
@@ -55,10 +74,10 @@ html, body {
       display: inline-block;
       margin: 05px auto;
       padding: 10px 20px;
-      background-color: red;
-      color: black;
+      background-color: #080808;
+      color: cyan;
       border: none;
-      font-size: 18px;
+      font-size: 20px;
       margin-left: 20px;
   }
   .btt button:last-child {
@@ -66,14 +85,7 @@ html, body {
   }
   
   button:hover {
-      background-color: black;
-      color: red;
+      background-color: rgb(255, 0, 132);
+      color: cyan;
   }
   
-  #results {
-      margin: 20px auto;
-      max-width: 500px;
-      text-align: center;
-      font-size: 18px;
-      font-weight: bold;
-  }

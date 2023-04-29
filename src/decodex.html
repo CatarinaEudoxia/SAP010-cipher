@@ -8,28 +8,50 @@
     <title>Caesar Cipher/decodificar </title>
 
 </head>
-<body>
+ <body>
 
     <h1>Decodificação</h1>
+
     <p> O real significado da sua mensagem está escondido. Deseja decodificar sua mensagem?</p>
-    
-    <textarea
+
+<div class="areaTexto">
+  <textarea disabled
     placeholder="Aguarde sua mensagem"
-    id="TextOne"
+    id="TextThree"
     rows="15"
     cols="70"
   ></textarea> 
-<br>
-    <textarea
+
+  <textarea
     placeholder="Escreva seu texto aqui"
-    id="TextTwo"
+    id="TextFour"
     rows="10"
     cols="70"
   ></textarea> 
 
+  <br>
+  
+<div for="opcoes"></label>
+  <select id="opcoes">
+    <option value="opcao1"> 1 </option>
+    <option value="opcao2"> 2 </option>
+    <option value="opcao3"> 3 </option>
+    <option value="opcao4"> 4 </option>
+    <option value="opcao5"> 5 </option>
+  </select>
+
+</div>
+
+  <button id="msgDecod"> Decodificar </button>
+
 <br>
+
+ <footer>
    <a href="index.html">
         <button onclick= "backDec()"> Voltar</button>
     </a>
-</body>
+ </footer>
+
+  <script src="index.js" type="module"></script>
+ </body>
 </html>

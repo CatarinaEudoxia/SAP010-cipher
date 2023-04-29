@@ -8,29 +8,52 @@
     <title>Caesar Cipher/codificar </title>
     
 </head>
-<body>
+
+ <body>
+
     <h1>Codificação</h1>
+
     <p> O que dejesa esconder?</p>
 
-    <textarea
+  <div class="areaTexto">
+
+    <textarea disabled
     placeholder="Aguarde sua mensagem"
     id="TextOne"
     rows="15"
     cols="70"
   ></textarea> 
-<br>
+
     <textarea
     placeholder="Escreva seu texto aqui"
     id="TextTwo"
     rows="10"
     cols="70"
-  ></textarea> 
+  ></textarea>
+  
+  <br>
+
+<div for="opcoes"></label>
+  <select id="opcoes">
+    <option value="opcao1"> 1 </option>
+    <option value="opcao2"> 2 </option>
+    <option value="opcao3"> 3 </option>
+    <option value="opcao4"> 4 </option>
+    <option value="opcao5"> 5 </option>
+  </select>
+
+</div>
+
+<button id="msgCod"> Codificar </button>
 
 <br>
 
+<footer>
   <a href="index.html">
         <button onclick= "backCod()"> Voltar </button>
   </a>
+</footer>
 
+  <script src="index.js" type="module"></script>
 </body>
 </html>
