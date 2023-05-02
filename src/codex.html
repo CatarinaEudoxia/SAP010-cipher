@@ -1,59 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-codex.css" />
-    <title>Caesar Cipher/codificar </title>
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style-codex.css" />
+  <title>Caesar Cipher/codificar </title>
+
 </head>
 
- <body>
+<body>
 
-    <h1>Codificação</h1>
+  <h1>Codificação</h1>
 
-    <p> O que dejesa esconder?</p>
+  <p> O que dejesa esconder?</p>
 
   <div class="areaTexto">
 
-    <textarea disabled
-    placeholder="Aguarde sua mensagem"
-    id="TextOne"
-    rows="15"
-    cols="70"
-  ></textarea> 
+    <textarea disabled placeholder="Aguarde sua mensagem" id="textDois" rows="15" cols="70"></textarea>
 
-    <textarea
-    placeholder="Escreva seu texto aqui"
-    id="TextTwo"
-    rows="10"
-    cols="70"
-  ></textarea>
-  
-  <br>
+    <textarea placeholder="Escreva seu texto aqui" id="textUm" rows="10" cols="70"></textarea>
 
-<div for="opcoes"></label>
-  <select id="opcoes">
-    <option value="opcao1"> 1 </option>
-    <option value="opcao2"> 2 </option>
-    <option value="opcao3"> 3 </option>
-    <option value="opcao4"> 4 </option>
-    <option value="opcao5"> 5 </option>
-  </select>
+    <br>
 
-</div>
+    <div id="alinhamento">
+      <label for="opcoes"> Opções:</label>
+      <select id="opcoes">
+        <option value="opcao1"> 1 </option>
+        <option value="opcao2"> 2 </option>
+        <option value="opcao3"> 3 </option>
+        <option value="opcao4"> 4 </option>
+        <option value="opcao5"> 5 </option>
+      </select>
+      <button id="msgCod"> Codificar </button>
 
-<button id="msgCod"> Codificar </button>
+    </div>
 
-<br>
+    <br>
 
-<footer>
-  <a href="index.html">
-        <button onclick= "backCod()"> Voltar </button>
-  </a>
-</footer>
+    <footer>
+      <a href="index.html">
+        <button onclick="backCod()"> Voltar </button>
+      </a>
+    </footer>
 
-  <script src="index.js" type="module"></script>
+    <script src="index.js" type="module"></script>
 </body>
+
 </html>
