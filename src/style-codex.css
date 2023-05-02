@@ -16,31 +16,55 @@ body {
 }
 
 h1 {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 0, 132);
+  background: linear-gradient(to right, rgb(255, 0, 132) 40%, cyan 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
-  width: 42%;
+  width: 100%;
   height: 10%;
-  line-height: 70px;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 0px;
   font-family: "Roboto Mono", ;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
 }
+
+/*   <textarea disabled placeholder="Aguarde..." id="textDois" rows="15" cols="70"></textarea> em cima
+
+    <textarea disabled placeholder="Aguarde..." id="textQuatro" rows="15" cols="70"></textarea> em cima
+
+    <textarea placeholder="Escreva seu texto aqui" id="textUm" rows="10" cols="70"></textarea> baixo
+
+   <textarea placeholder="Escreva seu texto aqui" id="textTres" rows="10" cols="70"></textarea> baixo
+   */
 
 .areaTexto textarea {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 0, 132);
   text-align: center;
-  box-shadow: rgb(255, 0, 132) 0px 1px 5px 5px;
-  font-family: "Roboto Mono", ;
-  justify-content: center;
-  margin-left: auto;
+  width: 80%;
+  font-family: "Roboto Mono", monospace;
+  margin-left: 10%;
   margin-right: auto;
-  display: block;
+  display: inline-block;
   resize: none;
+}
+
+.areaTexto {
+  display: flex;
+  justify-content: center;
+}
+
+.esquerda textarea{
+  color: rgb(255, 0, 132);
+ box-shadow:  rgb(255, 0, 132) 0px 0px 7px 4px;
+}
+
+.direita textarea {
+  color: cyan;
+  box-shadow: cyan 0px 0px 7px 4px;
 }
 
 button {
@@ -56,10 +80,28 @@ button {
   margin-left: auto;
 }
 
-
 button:hover {
   background-color: rgb(255, 0, 132);
   color: black;
+}
+
+#msgCod {
+  display: inline-block;
+  color: cyan;
+}
+
+#msgCod:hover {
+  background-color:rgb(255, 0, 132) ;
+  color: cyan ;
+}
+#msgDecod {
+  display: inline-block;
+  color:  rgb(255, 0, 132);
+}
+
+#msgDecod:hover {
+  background-color: cyan;
+  color:  rgb(255, 0, 132);
 }
 
 a {
@@ -71,7 +113,7 @@ a {
   text-align: center;
   padding: 2px;
   width: 4%;
-  font-size: 15px;
+  font-size: 18px;
   color: rgb(255, 0, 132);
   border: 1px solid cyan;
   border-radius: 4px;
@@ -80,7 +122,6 @@ a {
   margin-right: auto;
 }
 
-#msgCod {
-  display: inline-block;
-  margin-left: 30px;
+footer{
+  
 }
