@@ -9,6 +9,7 @@ const textarea2 = document.getElementById("textDois");
 const textarea3 = document.getElementById("textTres");
 const textarea4 = document.getElementById("textQuatro");
 
+// <input type="number" id="offset" min="1" max="25" value="2" class="input-offset" />
 
 buttonC.addEventListener('click', function mensagemDigitada() {
   const texto = textarea1.value;

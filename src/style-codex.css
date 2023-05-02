@@ -66,7 +66,7 @@ a {
   text-decoration: none;
 }
 
-select {
+#deslocamento {
   display: inline-block;
   text-align: center;
   padding: 2px;
@@ -78,22 +78,6 @@ select {
   background-color: transparent;
   margin-left: 47%;
   margin-right: auto;
-}
-
-select:hover {
-  cursor: pointer;
-  background-color: black;
-}
-
-select:focus {
-  outline: none;
-  border-color: rgb(255, 0, 132);
-  box-shadow: 0 0 0 2px cyan;
-}
-
-option {
-  font-size: 16px;
-  color: rgb(255, 0, 132);
 }
 
 #msgCod {
