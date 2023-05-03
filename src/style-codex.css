@@ -1,83 +1,65 @@
-html,
+/* Define o estilo do corpo do documento */
 body {
-  height: 100%;
-
-}
-
-body {
-  background-color: rgb(0, 0, 0);
-  color: black;
-  margin: 0px;
-  padding: 1em;
-  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
   font-family: "Roboto Mono", monospace;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 1em;
 }
 
-h1 {
+/* Define o estilo do título */
+#titleCodfi {
+  text-align: center;
+  margin-top: 10px;
   background: linear-gradient(to right, rgb(255, 0, 132) 40%, cyan 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
-  width: 100%;
-  height: 10%;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 0px;
-  font-family: "Roboto Mono", ;
-  justify-content: center;
-  display: inline-block;
 }
 
-/*   <textarea disabled placeholder="Aguarde..." id="textDois" rows="15" cols="70"></textarea> em cima
-
-    <textarea disabled placeholder="Aguarde..." id="textQuatro" rows="15" cols="70"></textarea> em cima
-
-    <textarea placeholder="Escreva seu texto aqui" id="textUm" rows="10" cols="70"></textarea> baixo
-
-   <textarea placeholder="Escreva seu texto aqui" id="textTres" rows="10" cols="70"></textarea> baixo
-   */
-
-.areaTexto textarea {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 0, 132);
-  text-align: center;
-  width: 80%;
-  font-family: "Roboto Mono", monospace;
-  margin-left: 10%;
-  margin-right: auto;
-  display: inline-block;
-  resize: none;
-}
-
+/* Define o estilo dos campos de texto */
 .areaTexto {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+textarea {
+  background-color: #000;
+  box-shadow: 0 0 5px 2px cyan,
+    0 0 7px 5px #ff0084;
+  color: #ff0084;
+  font-family: "Roboto Mono", monospace;
+  margin: 10px 0;
+  resize: none;
+  text-align: left;
+}
+
+/* Define o estilo dos botões */
+button {
+  background-color: #080808;
+  border: none;
+  border-radius: 20px;
+  color: #ff0084;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.2s ease-in-out;
+  display: inline-flex;
+  width: 120px;
+  margin: 10px;
   justify-content: center;
 }
 
-.esquerda textarea{
-  color: rgb(255, 0, 132);
- box-shadow:  rgb(255, 0, 132) 0px 0px 7px 4px;
+.btns {
+  text-align: center;
 }
 
-.direita textarea {
-  color: cyan;
-  box-shadow: cyan 0px 0px 7px 4px;
-}
-
-button {
-  margin: 05px auto;
-  padding: 10px 40px;
-  background-color: #080808;
-  color: rgb(255, 0, 132);
-  border: none;
-  border-radius: 0;
-  font-size: 14px;
-  cursor: pointer;
-  float: center;
-  margin-left: auto;
+button:hover {
+  background-color: #ff0084;
+  color: #000;
 }
 
 button:hover {
@@ -85,43 +67,43 @@ button:hover {
   color: black;
 }
 
-#msgCod {
-  display: inline-block;
+
+/* Define o estilo do campo de entrada de número */
+#alinhamento {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+label {
   color: cyan;
+  font-size: 16px;
+  margin-right: 10px;
 }
 
-#msgCod:hover {
-  background-color:rgb(255, 0, 132) ;
-  color: cyan ;
-}
-#msgDecod {
-  display: inline-block;
-  color:  rgb(255, 0, 132);
+input[type="number"] {
+  background-color: transparent;
+  border: 1px solid cyan;
+  border-radius: 20px;
+  color: #ff0084;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  padding: 15px;
+  text-align: center;
+  width: 5%;
 }
 
-#msgDecod:hover {
-  background-color: cyan;
-  color:  rgb(255, 0, 132);
+/* Define o estilo do rodapé */
+footer {
+  bottom: 0;
+  height: 50px;
+  left: 0;
+  position: fixed;
+  right: 0;
 }
 
 a {
   text-decoration: none;
-}
-
-#deslocamento {
-  display: inline-block;
-  text-align: center;
-  padding: 2px;
-  width: 4%;
-  font-size: 18px;
-  color: rgb(255, 0, 132);
-  border: 1px solid cyan;
-  border-radius: 4px;
-  background-color: transparent;
-  margin-left: 47%;
-  margin-right: auto;
-}
-
-footer{
-  
 }

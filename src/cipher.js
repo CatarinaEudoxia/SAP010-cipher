@@ -1,49 +1,30 @@
-
-// função para criptografar a mensagem
 const cipher = {
-  encode: function (desloc, string) {
-    if (!desloc) {
-      throw new TypeError();
-    }
-
-    let textCode = "";
-
-    for (let i = 0; i < string.length; i++) {
-      const cripto = string.charCodeAt(i);
-
-      if (cripto >= 65 && cripto <= 90) {
-        textCode += String.fromCharCode(((string - 65 + desloc) % 26) + 65);
-      } else if (cripto >= 97 && cripto <= 122) {
-        textCode += String.fromCharCode(((string - 97 + desloc) % 26) + 97);
+  encode: function (offset, message) {
+    let encodedMessage = "";
+    for (let i = 0; i < message.length; i++) {
+      const charCode = message.charCodeAt(i);
+      if (charCode >= 32 && charCode <= 126) {
+        const encodedCharCode = ((charCode - 32 + offset) % 95) + 32;
+        encodedMessage += String.fromCharCode(encodedCharCode);
       } else {
-        textCode += string.charAt(i);
+        encodedMessage += message[i];
       }
     }
-    return textCode;
+    return encodedMessage;
   },
-
-  decode: function (deslocUm, stringUm) {
-    if (!deslocUm) {
-      throw new TypeError();
-    }
-
-    let textDecode = "";
-
-    for (let i = 0; i < stringUm.length; i++) {
-      const descripto = stringUm.charCodeAt(i);
-
-      if (descripto >= 65 && descripto <= 90) {
-        textDecode += String.fromCharCode(((descripto + 65 - deslocUm) % 26) + 65);
-      } else if (descripto >= 97 && descripto <= 122) {
-        textDecode += String.fromCharCode(
-          ((descripto - 122 - stringUm) % 26) + 122
-        );
+  decode: function (offset, message) {
+    let decodedMessage = "";
+    for (let i = 0; i < message.length; i++) {
+      const charCode = message.charCodeAt(i);
+      if (charCode >= 32 && charCode <= 126) {
+        const decodedCharCode = ((charCode - 32 - offset + 95) % 95) + 32;
+        decodedMessage += String.fromCharCode(decodedCharCode);
       } else {
-        textDecode += stringUm.charAt(i);
+        decodedMessage += message[i];
       }
     }
-    return textDecode;
+    return decodedMessage;
   }
-}
+};
 
 export default cipher;
