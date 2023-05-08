@@ -56,11 +56,11 @@ Nele você pode:
 
 O protótipo inicial foi projetado para ter três telas. A tela inical, tela de codificação e tela de decodificação. 
 
-![prototipo inical] (First-prot.png)
+![prototipo inical] (https://github.com/CatarinaEudoxia/SAP010-cipher/blob/main/First-prot.png?raw=true)
 
 No entando para fazer com que experiência do usuário fosse melhor, mais rápida e de fácil manuseio, o projeto foi modificado para ter apenas duas telas. A tela inicial e a tela onde será possivel criptografar e descriptografar.  
 
-![prototipo final] (finalt-prot.png)
+![prototipo final] (https://github.com/CatarinaEudoxia/SAP010-cipher/blob/main/final-prot.png?raw=true)
 
 ## 4. Instruções de uso
 A área incial é onde o usuário poderá decidir se quer prosseguir ou não. Caso deseje é so seguir as instruções abaixo:
@@ -85,8 +85,8 @@ OBS: Nunca se esqueça de anotar todas as mudanças de deslocamento. Caso contr�
 
 ## 5. Produto final e Objetivos alcançados
 
-![tela inicial] (TelaInicial.png)
-![tela final] (TelaCodificação.png)
+![tela inicial] (https://github.com/CatarinaEudoxia/SAP010-cipher/blob/main/TelaInicial.png?raw=true)
+![tela final] (https://github.com/CatarinaEudoxia/SAP010-cipher/blob/main/TelaCodifica%C3%A7%C3%A3o.png?raw=true)
 
 Critérios mínimos de aceitação do projeto:
 
