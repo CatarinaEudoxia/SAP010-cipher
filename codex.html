@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caesar Cipher / codificar </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cipher Loki Lock</title>
+  <link rel="stylesheet" href="style-codex.css">
 </head>
+
 <body>
-    <h1>Codificação</h1>
-    <p> O que dejesa esconder?</p>
-    <textarea
-    placeholder="Escreva seu texto aqui"
-    id="TextTwo"
-    rows="15"
-    cols="50"
-  ></textarea> 
+  <div id="titleCodfi">
+    <h1>Codificação/Decodificação</h1>
+  </div>
 
+  <div class="areaTexto">
+    <textarea id="textDois" placeholder="Aguarde..." rows="15" cols="70" disabled></textarea>
+    <textarea id="textUm" placeholder="Escreva seu texto aqui" rows="10" cols="70"></textarea>
+  </div>
+  <div class="btns">
+    <button id="msgCod">Codificar</button>
+    <label for="deslocamento"> • Deslocamento:</label>
+    <input type="number" id="deslocamento" min="1" max="33" value="1">
+    <button id="msgDecod">Decodificar</button>
 
+  </div>
+
+  <br>
+
+  <footer>
     <a href="index.html">
-        <button onclick= backCod()> Voltar</button>
-        </a>
+      <button onclick="back()">Voltar</button>
+    </a>
+  </footer>
 
+  <script src="index.js" type="module"></script>
 </body>
+
 </html>

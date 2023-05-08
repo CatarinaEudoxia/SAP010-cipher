@@ -1,0 +1,109 @@
+/* Define o estilo do corpo do documento */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* Define o estilo do título */
+#titleCodfi {
+  text-align: center;
+  margin-top: 10px;
+  background: linear-gradient(to right, rgb(255, 0, 132) 40%, cyan 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Define o estilo dos campos de texto */
+.areaTexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+textarea {
+  background-color: #000;
+  box-shadow: 0 0 5px 2px cyan,
+    0 0 7px 5px #ff0084;
+  color: #ff0084;
+  font-family: "Roboto Mono", monospace;
+  margin: 10px 0;
+  resize: none;
+  text-align: left;
+}
+
+/* Define o estilo dos botões */
+button {
+  background-color: #080808;
+  border: none;
+  border-radius: 20px;
+  color: #ff0084;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.2s ease-in-out;
+  display: inline-flex;
+  width: 120px;
+  margin: 10px;
+  justify-content: center;
+}
+
+.btns {
+  text-align: center;
+}
+
+button:hover {
+  background-color: #ff0084;
+  color: #000;
+}
+
+button:hover {
+  background-color: rgb(255, 0, 132);
+  color: black;
+}
+
+
+/* Define o estilo do campo de entrada de número */
+#alinhamento {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+label {
+  color: cyan;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  background-color: transparent;
+  border: 1px solid cyan;
+  border-radius: 20px;
+  color: #ff0084;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  padding: 15px;
+  text-align: center;
+  width: 5%;
+}
+
+/* Define o estilo do rodapé */
+footer {
+  bottom: 0;
+  height: 50px;
+  left: 0;
+  position: fixed;
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+}
