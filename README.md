@@ -24,8 +24,11 @@ Assim que o deslocamento é escolhido, uma novo alfabeto será desenvolvido para
 Por exemplo se usarmos o deslocamento de 13 posições:
 
 Alfabeto sem cifra: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
 Alfabeto com cifra: N O P Q R S T U V W X Y Z A B C D E F G H I J K L M
+
 A letra A será D
+
 A palavra LOKI será YBXV
 
 Acesse o [Loki Lock]()
@@ -41,19 +44,23 @@ Ao acessar o site no navegador, o usuário terá a escolha de prosseguir ou não
 Nele você pode:
 
 — Criar senhas seguras para e-mail.
+
 — Cifrar cartões de crédito.
+
 — Mensagens secretas para alguma pessoa.
+
 — Escrever cartas secretas.
+
 
 ## 3. Protótipo Inicial
 
 O protótipo inicial foi projetado para ter três telas. A tela inical, tela de codificação e tela de decodificação. 
 
-img
+![prototipo inical] (First-prot.png)
 
 No entando para fazer com que experiência do usuário fosse melhor, mais rápida e de fácil manuseio, o projeto foi modificado para ter apenas duas telas. A tela inicial e a tela onde será possivel criptografar e descriptografar.  
 
-img
+![prototipo final] (finalt-prot.png)
 
 ## 4. Instruções de uso
 A área incial é onde o usuário poderá decidir se quer prosseguir ou não. Caso deseje é so seguir as instruções abaixo:
@@ -63,7 +70,9 @@ A área incial é onde o usuário poderá decidir se quer prosseguir ou não. Ca
 O usuário será redirecionado para uma nova página, onde se encontra o codificador/decodificar. O usuário deve então:
 
 — Selecionar o deslocamento desejado, podendo selecionar até o número 33;
+
 — Selecionar o botão "Codificar", se deseja codificar ou clicar no "Decodificar", caso queira decodificar;
+
 — Clicar na caixa que contém a mensagem "Escreva seu texto aqui", e digitar  texto desejado;
 
 O texto será automáticamente cifrado/ decifrado, e estará pronto para ser lido ou utilizado.
@@ -76,8 +85,8 @@ OBS: Nunca se esqueça de anotar todas as mudanças de deslocamento. Caso contr�
 
 ## 5. Produto final e Objetivos alcançados
 
-img
-img
+![tela inicial] (TelaInicial.png)
+![tela final] (TelaCodificação.png)
 
 Critérios mínimos de aceitação do projeto:
 
@@ -92,13 +101,31 @@ Critérios mínimos de aceitação do projeto:
 
 ## 6. Ferramentas e mecanismos usados:
 — HTML (linguagem de marcação)
+
 — CSS (Mecanismo para adicionar estilos a uma página web)
+
 — JavaScript (Linguagem de programação)
+
 — VSCODE (Editor de texto)
+
 — Figma (Criação de protótipo)
+
 — Git bash (Realização de testes unitários)
 
 ## 7. Acesse o Loki Lock aqui:
 
 
 ## 8. Projeto desenvolvido por:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/129068843?s=400&u=07f6693114af32c3fc33f1913fde52c78b9dfd85&v=4" width="100px;" alt="Foto do GitHub"/><br>
+        <sub>
+          <b>Catarina Eudoxia Ferreira</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
