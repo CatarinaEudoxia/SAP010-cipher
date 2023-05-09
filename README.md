@@ -6,16 +6,17 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Protótipo](#3-protótipo-inicial)
 * [4. Instruções de uso](#4-instruções-de-uso)
-* [5. Produto final e Objetivos alcançados](#6-produto-final-e-objetivos-alcançados)
-* [6. Acesse o Loki Lock](#6-acesse-o-loki-lock-aqui)
-* [7. Projeto desenvolvido por](#7-projeto-desenvolvido-por)
+* [5. Produto final e Objetivos alcançados](#5-produto-final-e-objetivos-alcançados)
+* [6. Ferramentas e mecanismos usados](#6-ferramentas-e-mecanismos-usados)
+* [7. Acesse o Loki Lock Aqui](#7-acesse-o-loki-lock-aqui)
+* [8. Projeto desenvolvido por](#8-projeto-desenvolvido-por)
 
 ***
 
 ## 1. Prefácio
 
-O projeto foi desenvolvido como parte do bootcamp da Laboratória.Tendo o objetivo de fazer a utilização de técnicas de codificação 
-para criptografar e decriptografar textos, frases, mensagens e muito mais. Esté projeto em específico foi desenvolvido com a cifra de César, uma técnica antiga de cifragem, e muito simples, por sinal.
+O projeto foi desenvolvido como parte do bootcamp da Laboratória. Tendo o objetivo de fazer a utilização de técnicas de codificação 
+para criptografar e decriptografar textos, frases, mensagens e muito mais. Esté projeto em específico foi desenvolvido com a cifra de César, uma técnica antiga de cifragem que é muito simples, por sinal.
 A Cifra de César é uma das técnicas de criptografia mais antigas e acredita-se que Júlio César utilizava desta técnica para realizar suas comunicações.
 
 Constituída pelo deslocamento de letras, a cifra de César troca as letras originais pelo deslocamento desejado, podendo ele variar.
@@ -27,17 +28,17 @@ Alfabeto sem cifra: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 Alfabeto com cifra: N O P Q R S T U V W X Y Z A B C D E F G H I J K L M
 
-A letra A será D
+A letra A será N
 
 A palavra LOKI será YBXV
 
 ## 2. Resumo do projeto
 
-O [Loki Lock](https://catarinaeudoxia.github.io/SAP010-cipher/) foi desenvolvido especialmente como parte do Bootcamp, e tem como objetivo utilizar o JavaScript para implementar a Cifra de César. Sendo necessário que o projeto desenvolvido permita a criptografia e descriptografia de textos, mensagens, cartas senhas e muito mais. 
+O [Loki Lock](https://catarinaeudoxia.github.io/SAP010-cipher/) foi desenvolvido especialmente como parte do Bootcamp, e tem como objetivo utilizar o JavaScript para implementar a Cifra de César. Sendo necessário que o projeto desenvolvido permita a criptografia e descriptografia de textos, mensagens, cartas, senhas e muito mais. 
 
 O site foi inspirado em uma janela de conversação simples e de design básico, com cores fortes baseadas da paleta do jogo CyberPunk. 
 
-Ao acessar o site no navegador, o usuário terá a escolha de prosseguir ou não. Caso deseje continuar,terá acesso a uma área onde poderá digitar o texto desejado e escolher o deslocamento das letras, e então criptografa-lo. Ou, no caso de um texto já cifrado, poderá descriptgrafa-lo.
+Ao acessar o site no navegador, o usuário terá a escolha de prosseguir ou não. Caso deseje continuar, terá acesso a uma área onde poderá digitar o texto desejado e escolher o deslocamento das letras, e então criptografa-lo. Ou, no caso de um texto já cifrado, poderá descriptgrafa-lo.
 
 Nele você pode:
 
@@ -49,6 +50,8 @@ Nele você pode:
 
 — Escrever cartas secretas.
 
+— Fazer brincadeiras
+
 
 ## 3. Protótipo Inicial
 
@@ -56,24 +59,24 @@ O protótipo inicial foi projetado para ter três telas. A tela inical, tela de 
 
 ![prototipo-inical](First-prot.png)
 
-No entando para fazer com que experiência do usuário fosse melhor, mais rápida e de fácil manuseio, o projeto foi modificado para ter apenas duas telas. A tela inicial e a tela onde será possivel criptografar e descriptografar.  
+No entanto para fazer com que experiência do usuário fosse melhor, mais rápida e de fácil manuseio, o projeto foi modificado para ter apenas duas telas. A tela inicial e a tela onde será possivel criptografar e descriptografar.  
 
 ![prototipo-final](final-prot.png)
 
 ## 4. Instruções de uso
-A área incial é onde o usuário poderá decidir se quer prosseguir ou não. Caso deseje é so seguir as instruções abaixo:
+A área incial é onde o usuário poderá decidir se quer prosseguir ou não. Caso deseje continuar, é so seguir as instruções abaixo:
 
-— Clicar no botão "Prosseguir"
+— Clicar no botão "Prosseguir";
 
-O usuário será redirecionado para uma nova página, onde se encontra o codificador/decodificar. O usuário deve então:
+O usuário será redirecionado para uma nova página, onde se encontra o codificador/decodificador. O usuário deve então:
 
 — Selecionar o deslocamento desejado, podendo selecionar até o número 33;
 
 — Selecionar o botão "Codificar", se deseja codificar ou clicar no "Decodificar", caso queira decodificar;
 
-— Clicar na caixa que contém a mensagem "Escreva seu texto aqui", e digitar  texto desejado;
+— Clicar na caixa que contém a mensagem "Escreva seu texto aqui", e digitar o texto desejado;
 
-O texto será automáticamente cifrado/ decifrado, e estará pronto para ser lido ou utilizado.
+O texto será automáticamente cifrado/decifrado, e estará pronto para ser lido ou utilizado.
 
 OBS: Lembre-se de anotar o deslocamento, para não esquecer.
 
@@ -98,7 +101,7 @@ Critérios mínimos de aceitação do projeto:
 * [✔] O README contém uma definição de produto.
 
 ## 6. Ferramentas e mecanismos usados:
-— HTML (linguagem de marcação)
+— HTML (Linguagem de marcação)
 
 — CSS (Mecanismo para adicionar estilos a uma página web)
 
@@ -112,7 +115,7 @@ Critérios mínimos de aceitação do projeto:
 
 ## 7. Acesse o Loki Lock aqui:
 
- Acesse o [Loki Lock](https://catarinaeudoxia.github.io/SAP010-cipher/)
+ Acesse o [Loki Lock](https://catarinaeudoxia.github.io/SAP010-cipher/) aqui!
  
 ## 8. Projeto desenvolvido por:
 
