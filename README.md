@@ -31,11 +31,9 @@ A letra A será D
 
 A palavra LOKI será YBXV
 
-Acesse o [Loki Lock]()
-
 ## 2. Resumo do projeto
 
-O [Loki Lock]() foi desenvolvido especialmente como parte do Bootcamp, e tem como objetivo utilizar o JavaScript para implementar a Cifra de César. Sendo necessário que o projeto desenvolvido permita a criptografia e descriptografia de textos, mensagens, cartas senhas e muito mais. 
+O [Loki Lock](https://catarinaeudoxia.github.io/SAP010-cipher/) foi desenvolvido especialmente como parte do Bootcamp, e tem como objetivo utilizar o JavaScript para implementar a Cifra de César. Sendo necessário que o projeto desenvolvido permita a criptografia e descriptografia de textos, mensagens, cartas senhas e muito mais. 
 
 O site foi inspirado em uma janela de conversação simples e de design básico, com cores fortes baseadas da paleta do jogo CyberPunk. 
 
@@ -56,11 +54,11 @@ Nele você pode:
 
 O protótipo inicial foi projetado para ter três telas. A tela inical, tela de codificação e tela de decodificação. 
 
-![prototipo inical] (https://github.com/CatarinaEudoxia/SAP010-cipher/blob/main/First-prot.png?raw=true)
+![prototipo-inical] (First-prot.png)
 
 No entando para fazer com que experiência do usuário fosse melhor, mais rápida e de fácil manuseio, o projeto foi modificado para ter apenas duas telas. A tela inicial e a tela onde será possivel criptografar e descriptografar.  
 
-![prototipo final] (https://github.com/CatarinaEudoxia/SAP010-cipher/blob/main/final-prot.png?raw=true)
+![prototipo-final] (final-prot.png)
 
 ## 4. Instruções de uso
 A área incial é onde o usuário poderá decidir se quer prosseguir ou não. Caso deseje é so seguir as instruções abaixo:
@@ -85,8 +83,8 @@ OBS: Nunca se esqueça de anotar todas as mudanças de deslocamento. Caso contr�
 
 ## 5. Produto final e Objetivos alcançados
 
-![tela inicial] (https://github.com/CatarinaEudoxia/SAP010-cipher/blob/main/TelaInicial.png?raw=true)
-![tela final] (https://github.com/CatarinaEudoxia/SAP010-cipher/blob/main/TelaCodifica%C3%A7%C3%A3o.png?raw=true)
+![tela-inicial] (TelaInicial.png)
+![tela-final] (TelaCodificação.png)
 
 Critérios mínimos de aceitação do projeto:
 
@@ -114,7 +112,8 @@ Critérios mínimos de aceitação do projeto:
 
 ## 7. Acesse o Loki Lock aqui:
 
-
+ Acesse o [Loki Lock](https://catarinaeudoxia.github.io/SAP010-cipher/)
+ 
 ## 8. Projeto desenvolvido por:
 
 <table>
